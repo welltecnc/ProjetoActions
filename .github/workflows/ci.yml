@@ -12,6 +12,7 @@ on:
     steps:
           - uses: actions/checkout@v4
         
-         # Runs a single command 
+          - name: Run Installation
+            run: npm run install
           - name: Run linter
             run: npm run lint
