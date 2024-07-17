@@ -21,5 +21,5 @@ jobs:
 
       # Runs a lsit files command
         - name: Run a list file
-          run: ls -ls
+          run: ls -la
 
