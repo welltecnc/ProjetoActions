@@ -6,8 +6,7 @@ on:
      types: [opened, syncronize]
 
 jobs:
-    linter: #job exemplo
-    # aonde que vai rodar 
+    linter:
       runs-on: ubuntu-latest
       steps:
           - uses: actions/checkout@v4    
