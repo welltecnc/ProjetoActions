@@ -19,3 +19,7 @@ jobs:
         - name: Run a one-line script
           run: echo Hello, world!
 
+      # Runs a lsit files command
+        - name: Run a list file
+          run: ls -ls
+
