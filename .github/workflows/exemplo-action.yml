@@ -20,6 +20,6 @@ jobs:
             run: echo Hello, world!
 
       # Runs a lsit files command
-        - name: Run a list file
-          run: ls -la
+          - name: Run a list file
+            run: ls -la
 
