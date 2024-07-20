@@ -3,7 +3,7 @@ name: "CI(Integração Continua):Primeira Action"
 on:
   # ATIVA O FLUXO DE TRABALHO PARA CADA PUSH OU PULL QUE ACONTECER DENTRO DA BRANCH MAIN
   push:
-    branches: [ "teste" ]
+    branches: [ "teste","main" ]
   pull_request:
      types: [opened, syncronize]
     #branches: [ "main" ]
